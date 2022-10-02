@@ -30,7 +30,6 @@ div.menu {
     margin-left: 258px;
     font-weight: 900;
     height: 40px;
-
 }
 div.menu li {
     padding: 4px;
@@ -42,13 +41,20 @@ div.main_banner {
     width:900px;
     height: 150px;
     float : left;
-    background-color: powderblue;
+    display:table-cell;
+    vertical-align:middle;
+} 
+div.main_banner > img {
+  max-width:900px;
+  max-height:150px;
 }
 div.logins{
     width:300px;
     height: 150px;
     float : left;
-    background-color: orange;
+}
+div.logins > img {
+    text-align: center;
 }
 div.roll p{
     padding-left:30px;
@@ -69,11 +75,17 @@ div.news{
     width:900px;
     height:300px;
     float:left;
-    background-color: pink;
+
 }
 div.news li{
-    width:225px;
-    height:75px;
+    width:223px;
+    height: 73px;
+    line-height: 73px;
+    border: 1px lightgray solid;
+    display: block;
+}
+div.news img {
+    vertical-align: middle;
 }
 div.commerce{
     width:300px;
