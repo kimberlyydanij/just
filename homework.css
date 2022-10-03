@@ -1,6 +1,6 @@
 html,body{
-    margin-left : 100px;
-    margin-right: 100px;
+    margin-left : 90px;
+    margin-right: 90px;
     padding: 0;
     color : #666666;
     font-family: 'Nanum Gothic';
@@ -26,6 +26,15 @@ div.wrap {
 div.search {
     margin-top : 30px;
 }
+div#search-input{
+    position:absolute;;
+    z-index: 999;
+    top:16px;
+    left:434px;
+    width:500px;
+    height:30px;
+    
+}
 div.menu {
     margin-left: 258px;
     font-weight: 900;
@@ -38,15 +47,17 @@ div.header {
     height: 150px;
 }
 div.main_banner {
-    width:900px;
+    width:890px;
     height: 150px;
     float : left;
     display:table-cell;
     vertical-align:middle;
+    overflow: hidden;
+    margin-right:10px;
 } 
 div.main_banner > img {
-  max-width:900px;
-  max-height:150px;
+  max-width:100%;
+  max-height:100%;
 }
 div.logins{
     width:300px;
@@ -56,29 +67,41 @@ div.logins{
 div.logins > img {
     text-align: center;
 }
-div.roll p{
-    padding-left:30px;
+div.roll {
+    width:1200px;
+    margin-top:5px;
+    margin-bottom:7px;
+    height:30px;
+    float:left;
 }
 div#news_roll{
-    width:900px;
-    height:50px;
-    float:left;
-    background-color: yellow;
+    width:868px;
+    margin-right:10px;
+    padding-left:20px;
+    padding-top: 5px;
+    font :25px;
+    border:1px solid lightgray;
+    background-color: rgb(247, 245, 245);
 }
 div#stock_roll{
-    width:300px;
-    height:50px;
-    background-color: lightgray;
-    float:left;
+    width:280px;
+    padding-top:5px;
+    font-size:14px;
+    color:red !important;
+    padding-left:15px;
+    border:1px solid lightgray;
+    background-color: rgb(247, 245, 245);
 }
 div.news{
-    width:900px;
+    width:891px;
     height:300px;
     float:left;
+    margin-right:9px;
+    margin-top:15px;
 
 }
 div.news li{
-    width:223px;
+    width:220px;
     height: 73px;
     line-height: 73px;
     border: 1px lightgray solid;
@@ -87,22 +110,20 @@ div.news li{
 div.news img {
     vertical-align: middle;
 }
-div.commerce{
+div.commerce {
+    margin-top:6px;
     width:300px;
-    height: 300px;
-    float:left;
+    height:300px;
+    float : left;
 }
-div#small_banner{
+div#small_banner {
     width:300px;
     height:200px;
-    float:left;
-    background-color: aqua;
-
 }
-div#shopping{
+div#shopping {
     width:300px;
     height:100px;
-    background-color: violet;
+    background-color:rgb(240, 239, 239);
     font-weight: 500;
 }
 div#shopping li{
@@ -110,5 +131,5 @@ div#shopping li{
     height: 50px;
     float:left;
     text-align: center;
-    line-height: 20px;
+    line-height: 45px;
 }

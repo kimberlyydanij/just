@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Naver (정다운)</title>
     <link href='homework.css' type='text/css' rel='stylesheet' />
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
@@ -13,45 +13,51 @@
 <body>
     <div class='wrap' id='wrap'>
         <div class='search' id='search'>
-            <img src='image/search2.png'>
+            <div class='search' id='search-image'>
+            <img src='image/search2.png' usemap='#naver'>
+            <map name="naver">
+                <area shape="rect" coords='20,20,225,60' href="https://www.naver.com">
+                <area shape="rect" coords='744,15,798,60' href='https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query='></map>
+            </div>
+        <div class='search' id='search-input'>
+            <input type='text' name='search' style="width: 430px; height:40px; font:20px; border:none;"></div>
         </div>
         <div class='menu' id='menu'>
             <ul>
-            <li>메일</li>
-            <li>카페</li>
-            <li>블로그</li>
-            <li>지식iN</li>
-            <li>쇼핑</li>
-            <li>쇼핑Live</li>
-            <li>PAY</li>
-            <li>TV</li>
-            <li>사전</li>
-            <li>뉴스</li>
-            <li>증권</li>
-            <li>부동산</li>
-            <li>지도</li>
-            <li>VIBE</li>
-            <li>도서</li>
-            <li>웹툰</li>
+            <li><a href="https://mail.naver.com/">메일</a></li>
+            <li><a href="https://section.cafe.naver.com/">카페</li>
+            <li><a href="https://section.blog.naver.com/">블로그</a></li>
+            <li><a href="https://kin.naver.com/">지식iN</a></li>
+            <li><a href="https://shopping.naver.com/">쇼핑</a></li>
+            <li><a href="https://shoppinglive.naver.com/home">쇼핑Live</a></li>
+            <li><a href="https://order.pay.naver.com/home">PAY</a></li>
+            <li><a href="https://tv.naver.com/">TV</a></li>
+            <li><a href="https://dict.naver.com/">사전</a></li>
+            <li><a href="https://news.naver.com/">뉴스</a></li>
+            <li><a href="https://finance.naver.com/">증권</a></li>
+            <li><a href="https://land.naver.com/">부동산</a></li>
+            <li><a href="https://map.naver.com/">지도</a></li>
+            <li><a href="https://vibe.naver.com/">VIBE</a></li>
+            <li><a href="https://search.shopping.naver.com/book/home">도서</a></li>
+            <li><a href="https://comic.naver.com/">웹툰</a></li>
             </ul>
         </div>
         <div class='header' id='header'>
             <div class='main_banner' id='main_banner'>
                 <a href="https://campaign.naver.com/btsyettocomeinbusan/" target="_blank">
                 <img src="image/mian_banner.jpg" width='900px;'></a></div>
-
             <div class='logins' id='logins'>
-                <img src="image/login.png" usemap="#login_button">
+                <img src="image/login.png" usemap="#login_button" style='height:100%; width:100%;'>
                 <map name="login_button">
-                    <area shape="rect" coords='15,50,285,100' href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com" target="_blank"></map></div>
+                    <area shape="rect" coords='15,50,285,100' href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com"></map></div>
                 
                 
                 </div>
         <div class='roll' id='roll'>
             <div class='roll' id='news_roll'>
-                <P>연합뉴스 > 2분기 환율안정 위해 154달러 순매도.... 2019년 공...</P></div>
+                <span>연합뉴스 > </span><span><a href="https://news.naver.com/main/list.naver?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0013479021">영국, 부자감세 안한다...열흘만에 최고세율 폐지 백지화</a></span></div>
             <div class='roll' id='stock_roll'>
-            <P>증시 유로스톡스 50 3,288.72</P></div>
+            <span></span><a href="https://finance.naver.com/world/sise.nhn?symbol=RUI@RTSI">증시 러시아 RTS 1,115.83 (전일 1,055.72)</a></span></div>
         </div>
         <div class='news' id='news_main'>
             <ul class='news' id='news'>
@@ -203,20 +209,20 @@
         </div>
         <div class='commerce' id='commerce'>
             <div class='commerce' id='small_banner'>
-                <img src='image/small_banner.PNG'>
+            <a href='https://le10-bytrimage.com/' target='_blank'><img src='image/small_banner.PNG' style='height:100%; width:100%;'></a>
             </div>
             <div class='commerce' id='shopping'>
                 <ul>
-                    <li>쿠팡</li>
-                    <li>지마켓</li>
-                    <li>옥션</li>
-                    <li>11번가</li>
-                    <li>SSG닷컴</li>
-                    <li>티몬</li>
-                    <li>올리브영</li>
-                    <li>위메프</li>
-                    <li>GS샵</li>
-                    <li>CJ온스타일</li>
+                    <li><a href="https://www.coupang.com/" target="_blank">쿠팡</a></li>
+                    <li><a href="https://www.gmarket.co.kr/" target="_blank">지마켓</a></li>
+                    <li><a href="http://www.auction.co.kr/" target="_blank">옥션</a></li>
+                    <li><a href="https://www.11st.co.kr/" target="_blank">11번가</a></li>
+                    <li><a href="https://www.ssg.com/" target="_blank">SSG닷컴</a></li>
+                    <li><a href="https://www.tmon.co.kr/" target="_blank">티몬</a></li>
+                    <li><a href="https://www.oliveyoung.co.kr/" target="_blank">올리브영</a></li>
+                    <li><a href="https://wemakeprice.com" target="_blank">위메프</a></li>
+                    <li><a href="https://www.gsshop.com/" target="_blank">GS샵</a></li>
+                    <li><a href="https://www.cjonstyle.com/" target="_blank">CJ온스타일</a></li>
                 </ul>
             </div>
         </div>
